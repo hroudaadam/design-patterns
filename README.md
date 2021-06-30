@@ -1,4 +1,5 @@
 # Design patterns
+this project contains examples of design patterns to help me understand them better
 
 ## Creational
 
@@ -21,10 +22,10 @@ lets you copy existing objects
 set of initialized objects kept ready to use
 
 ### Multiton
-xxx
+TODO!
 
 ### Dependency Injection
-xxx
+TODO!
 
 ## Structural
 
@@ -38,16 +39,16 @@ allows behavior to be added to an individual object, dynamically, without affect
 controls access to the original object, allowing you to perform something either before or after the request gets through to the original object
 
 ### Composite
-xxx 
+TODO! 
 
 ### Bridge
-xxx
+TODO!
 
 ### Facade
-xxx
+TODO!
 
 ### Flyweight
-xxx
+TODO!
 
 ## Behavioural
 
@@ -61,19 +62,18 @@ allows an object to alter its behavior when its internal state changes
 enables selecting an algorithm at runtime
 
 ### Mediator
-xxx !!!
+TODO!
 
 ### Memento
-xxx !!!
+TODO!
 
 ### Command
-xxx
-
+TODO!
 ### Iterator
-xxx
+TODO!
 
 ### Chain of responsibility
-xxx
+TODO!
 
 ### Interpreter
-xxx
+TODO!
