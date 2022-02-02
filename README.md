@@ -4,19 +4,19 @@ this project contains examples of design patterns to help me understand them bet
 ## Creational
 
 ### Abstract factory
-lets you produce families of related objects without specifying their concrete classes
+provides an interface for creating families of related or dependent objects without specifying their concrete classes
 
-### Factory method
-creating objects without having to specify the exact class of the object that will be created
+### Factory
+creates object without exposing the creation logic to the client and refers to newly created object using a common interface
 
 ### Builder
-intent is to separate the construction of a complex object from its representation
+separates the construction of a complex object from its representation so that the same construction process can create different representations
 
 ### Singleton
 restricts the instantiation of a class to one instance
 
 ### Prototype
-lets you copy existing objects
+specifies the kind of objects to create using a prototypical instance, and create new objects by copying this prototype
 
 ### Object pool
 set of initialized objects kept ready to use
@@ -30,7 +30,7 @@ TODO!
 ## Structural
 
 ### Adapter (Wrapper)
-allows the interface of an existing class to be used as another interface
+converts the interface of a class into another interface clients expect
 
 ### Decorator
 allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class
@@ -53,7 +53,7 @@ TODO!
 ## Behavioural
 
 ### Observer
-if one object is modified, its depenedent objects are to be notified automatically
+defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically
 
 ### State
 allows an object to alter its behavior when its internal state changes
