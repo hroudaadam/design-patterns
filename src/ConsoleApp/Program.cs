@@ -9,6 +9,7 @@ using ConsoleApp.Creational.Prototype;
 using ConsoleApp.Creational.Singleton;
 using ConsoleApp.Structural.Adapter;
 using ConsoleApp.Structural.Decorator;
+using ConsoleApp.Structural.Facade;
 using ConsoleApp.Structural.Proxy;
 
 namespace ConsoleApp;
@@ -29,6 +30,7 @@ class Program
         ObserverExample.Run();
         StateExample.Run();
         StrategyExample.Run();
+        FacadeExample.Run();
 
         Console.ReadKey();
     }

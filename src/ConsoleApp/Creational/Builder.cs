@@ -5,10 +5,7 @@ public static class BuilderExample
     public static void Run()
     {
         SandwichBuilder builder = new();
-        var fullSandwich = builder.SetType("Rustic")
-                                  .WithBeef()
-                                  .WithCheese()
-                                  .Build();
+        var fullSandwich = builder.SetType("Rustic").WithBeef().WithCheese().Build();
         // reset builder
         builder = new();
         var simpleSandwich = builder.Build();
