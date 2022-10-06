@@ -3,3 +3,18 @@ global using System.Collections.Generic;
 global using System.Linq;
 global using System.Text;
 global using System.Threading.Tasks;
+
+global using ConsoleApp.Behavioral.Observer;
+global using ConsoleApp.Behavioral.State;
+global using ConsoleApp.Behavioral.Strategy;
+global using ConsoleApp.Creational.AbstractFactory;
+global using ConsoleApp.Creational.Builder;
+global using ConsoleApp.Creational.Factory;
+global using ConsoleApp.Creational.ObjectPool;
+global using ConsoleApp.Creational.Prototype;
+global using ConsoleApp.Creational.Singleton;
+global using ConsoleApp.Structural.Adapter;
+global using ConsoleApp.Structural.Composite;
+global using ConsoleApp.Structural.Decorator;
+global using ConsoleApp.Structural.Facade;
+global using ConsoleApp.Structural.Proxy;

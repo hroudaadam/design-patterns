@@ -9,10 +9,7 @@ public static class ObserverExample
         eventSource.RegisterObserver(new ConsoleWriter(ConsoleColor.Blue));
         eventSource.RegisterObserver(new ConsoleWriter(ConsoleColor.Yellow));
 
-        Console.Write("Pass message: ");
-        string message = Console.ReadLine();
-        Console.Clear();
-        eventSource.NotifyObservers(new Event(message));
+        eventSource.NotifyObservers(new Event("New message"));
     }
 }
 

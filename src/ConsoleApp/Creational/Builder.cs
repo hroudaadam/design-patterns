@@ -25,8 +25,8 @@ public class Sandwich
     public override string ToString()
     {
         string beefString = Beef ? "beef " : "";
-        string cheeseString = Cheese ? "with cheese" : "";
-        return $"{Type} {beefString}sandwich {cheeseString}";
+        string cheeseString = Cheese ? " with cheese" : "";
+        return $"{Type} {beefString}sandwich{cheeseString}";
     }
 }
 

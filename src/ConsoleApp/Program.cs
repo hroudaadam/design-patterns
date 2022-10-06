@@ -1,18 +1,4 @@
-﻿using ConsoleApp.Behavioral.Observer;
-using ConsoleApp.Behavioral.State;
-using ConsoleApp.Behavioral.Strategy;
-using ConsoleApp.Creational.AbstractFactory;
-using ConsoleApp.Creational.Builder;
-using ConsoleApp.Creational.Factory;
-using ConsoleApp.Creational.ObjectPool;
-using ConsoleApp.Creational.Prototype;
-using ConsoleApp.Creational.Singleton;
-using ConsoleApp.Structural.Adapter;
-using ConsoleApp.Structural.Decorator;
-using ConsoleApp.Structural.Facade;
-using ConsoleApp.Structural.Proxy;
-
-namespace ConsoleApp;
+﻿namespace ConsoleApp;
 
 class Program
 {
@@ -31,6 +17,7 @@ class Program
         StateExample.Run();
         StrategyExample.Run();
         FacadeExample.Run();
+        CompositeExample.Run();
 
         Console.ReadKey();
     }

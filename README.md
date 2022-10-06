@@ -21,12 +21,6 @@ specifies the kind of objects to create using a prototypical instance, and creat
 ### Object pool
 set of initialized objects kept ready to use
 
-### Multiton
-TODO!
-
-### Dependency Injection
-TODO!
-
 ## Structural
 
 ### Adapter (Wrapper)
@@ -39,7 +33,7 @@ allows behavior to be added to an individual object, dynamically, without affect
 controls access to the original object, allowing you to perform something either before or after the request gets through to the original object
 
 ### Composite
-TODO! 
+lets clients treat objects and compositions in a tree uniformly
 
 ### Bridge
 TODO!
@@ -69,6 +63,7 @@ TODO!
 
 ### Command
 TODO!
+
 ### Iterator
 TODO!
 
