@@ -18,3 +18,8 @@ global using ConsoleApp.Structural.Composite;
 global using ConsoleApp.Structural.Decorator;
 global using ConsoleApp.Structural.Facade;
 global using ConsoleApp.Structural.Proxy;
+global using ConsoleApp.Behavioral.Mediator;
+global using ConsoleApp.Structural.Bridge;
+global using ConsoleApp.Structural.Flyweight;
+global using ConsoleApp.Creational.DependencyInjection;
+global using ConsoleApp.Behavioral.ChainOfResponsibility;

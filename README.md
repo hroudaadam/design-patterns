@@ -21,6 +21,9 @@ specifies the kind of objects to create using a prototypical instance, and creat
 ### Object pool
 set of initialized objects kept ready to use
 
+### Dependency injection
+moves the creation and binding of the dependent objects outside of the class that depends on them
+
 ## Structural
 
 ### Adapter (Wrapper)
@@ -36,13 +39,13 @@ controls access to the original object, allowing you to perform something either
 lets clients treat objects and compositions in a tree uniformly
 
 ### Bridge
-TODO!
+devides one large inheritance hierarchy into two hierarachies
 
 ### Facade
 provides a unified interface to a set of interfaces in a subsystem
 
 ### Flyweight
-TODO!
+lets many objects use common data to save memory
 
 ## Behavioural
 
@@ -56,7 +59,7 @@ allows an object to alter its behavior when its internal state changes
 enables selecting an algorithm at runtime
 
 ### Mediator
-TODO!
+restricts direct communications between the objects and forces them to collaborate only via a mediator object
 
 ### Memento
 TODO!
@@ -68,7 +71,7 @@ TODO!
 TODO!
 
 ### Chain of responsibility
-TODO!
+lets you pass requests along a chain of handlers
 
 ### Interpreter
 TODO!
