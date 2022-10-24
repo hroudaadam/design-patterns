@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp;
+﻿using System.Collections;
+
+namespace ConsoleApp;
 
 class Program
 {
@@ -22,7 +24,8 @@ class Program
         //FlyweightExample.Run();
         //MediatorExample.Run();
         //DependencyInjectionExample.Run();
-        ChainOfResponsibilityExample.Run();
+        //ChainOfResponsibilityExample.Run();
+        InterpreterExample.Run();
 
         Console.ReadKey();
     }

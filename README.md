@@ -74,4 +74,4 @@ TODO!
 lets you pass requests along a chain of handlers
 
 ### Interpreter
-TODO!
+specifies how to evaluate sentences in a language
