@@ -24,6 +24,9 @@ set of initialized objects kept ready to use
 ### Dependency injection
 moves the creation and binding of the dependent objects outside of the class that depends on them
 
+### Lazy
+delaying he creation of an object until the first time it is needed
+
 ## Structural
 
 ### Adapter (Wrapper)
@@ -62,16 +65,22 @@ enables selecting an algorithm at runtime
 restricts direct communications between the objects and forces them to collaborate only via a mediator object
 
 ### Memento
-TODO!
+lets clients save and restore the previous state of an object without revealing the details of its implementation
 
 ### Command
 TODO!
 
-### Iterator
+### Template method
 TODO!
 
+### Visitor
+TODO!
+
+### Iterator
+lets clients traverse elements of a collection without exposing its underlying representation
+
 ### Chain of responsibility
-lets you pass requests along a chain of handlers
+lets requests to passed along a chain of handlers
 
 ### Interpreter
 specifies how to evaluate sentences in a language

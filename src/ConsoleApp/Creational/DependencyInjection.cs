@@ -36,7 +36,7 @@ public class Container
 
     public void RegisterSingleton<TService>(Func<TService> factory)
     {
-        var lazy = new Lazy<TService>(factory);
+        var lazy = new System.Lazy<TService>(factory);
         Register(factory);
     }
 

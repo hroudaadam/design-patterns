@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace ConsoleApp;
+﻿namespace ConsoleApp;
 
 class Program
 {
@@ -25,8 +23,9 @@ class Program
         //MediatorExample.Run();
         //DependencyInjectionExample.Run();
         //ChainOfResponsibilityExample.Run();
-        InterpreterExample.Run();
-
-        Console.ReadKey();
+        //InterpreterExample.Run();
+        //IteratorExample.Run();
+        //LazyExample.Run();
+        MementoExample.Run();
     }
 }

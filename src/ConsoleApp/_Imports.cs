@@ -24,3 +24,6 @@ global using ConsoleApp.Structural.Flyweight;
 global using ConsoleApp.Creational.DependencyInjection;
 global using ConsoleApp.Behavioral.ChainOfResponsibility;
 global using ConsoleApp.Behavioral.Interpreter;
+global using ConsoleApp.Behavioral.Iterator;
+global using ConsoleApp.Creational.Lazy;
+global using ConsoleApp.Behavioral;
