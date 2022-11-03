@@ -40,10 +40,6 @@ public abstract class Handler : IHandler
     private IHandler _next;
     protected IHandlerContext _handlerContext;
 
-    public Handler()
-    {
-    }
-
     protected IHandlerContext Next()
     {
         if (_next == null)

@@ -26,4 +26,4 @@ global using ConsoleApp.Behavioral.ChainOfResponsibility;
 global using ConsoleApp.Behavioral.Interpreter;
 global using ConsoleApp.Behavioral.Iterator;
 global using ConsoleApp.Creational.Lazy;
-global using ConsoleApp.Behavioral;
+global using ConsoleApp.Behavioral.TemplateMethod;

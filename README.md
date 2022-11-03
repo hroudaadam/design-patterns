@@ -71,7 +71,7 @@ lets clients save and restore the previous state of an object without revealing 
 TODO!
 
 ### Template method
-TODO!
+defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps
 
 ### Visitor
 TODO!

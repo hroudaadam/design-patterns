@@ -26,6 +26,6 @@ class Program
         //InterpreterExample.Run();
         //IteratorExample.Run();
         //LazyExample.Run();
-        MementoExample.Run();
+        TemplateMethodExample.Run();
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp.Behavioral;
+﻿namespace ConsoleApp.Behavioral.Memento;
 
 public static class MementoExample
 {
