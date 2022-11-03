@@ -27,3 +27,5 @@ global using ConsoleApp.Behavioral.Interpreter;
 global using ConsoleApp.Behavioral.Iterator;
 global using ConsoleApp.Creational.Lazy;
 global using ConsoleApp.Behavioral.TemplateMethod;
+global using ConsoleApp.Behavioral.Visitor;
+global using ConsoleApp.Behavioral.Command;

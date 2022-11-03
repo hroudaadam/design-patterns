@@ -26,6 +26,8 @@ class Program
         //InterpreterExample.Run();
         //IteratorExample.Run();
         //LazyExample.Run();
-        TemplateMethodExample.Run();
+        //TemplateMethodExample.Run();
+        //VisitorExample.Run();
+        CommandExample.Run();
     }
 }

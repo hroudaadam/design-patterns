@@ -68,13 +68,13 @@ restricts direct communications between the objects and forces them to collabora
 lets clients save and restore the previous state of an object without revealing the details of its implementation
 
 ### Command
-TODO!
+turns a request into a stand-alone object that contains all information about the request
 
 ### Template method
 defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps
 
 ### Visitor
-TODO!
+lets you separate algorithms from the objects on which they operate
 
 ### Iterator
 lets clients traverse elements of a collection without exposing its underlying representation
